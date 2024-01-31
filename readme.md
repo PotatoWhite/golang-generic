@@ -34,6 +34,7 @@ go get github.com/gin-gonic/gin
 
 ```shell
 go get gorm.io/gorm
+
 go get gorm.io/driver/postgres
 ```
 

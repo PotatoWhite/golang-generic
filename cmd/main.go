@@ -1,12 +1,12 @@
 package main
 
 import (
+	"github.com/easywalk/go-restful/easywalk/handler"
+	"github.com/easywalk/go-restful/easywalk/repository"
+	"github.com/easywalk/go-restful/easywalk/service"
 	"github.com/gin-gonic/gin"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
-	"restfule-api-generic/internal/easywalk/handler"
-	"restfule-api-generic/internal/easywalk/repository"
-	"restfule-api-generic/internal/easywalk/service"
 	"restfule-api-generic/pkg/model"
 )
 
